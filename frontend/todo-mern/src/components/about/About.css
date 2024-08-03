@@ -1,0 +1,35 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust as needed */
+    padding: 20px; /* Optional: Add padding for spacing */
+  }
+  
+  .about-content {
+    width: 100%;
+    max-width: 800px; /* Optional: Set a max-width for the content */
+  }
+  
+  .about-content h1 {
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px; /* Space between the heading and the first paragraph */
+  }
+  
+  .about-content h1::after {
+    content: '';
+    display: block;
+    width: 160px; /* Adjust the underline length as needed */
+    height: 3px;
+    background-color: black; /* Adjust the color as needed */
+    position: absolute;
+    bottom: -5px; /* Adjust the position of the underline */
+    left: 0px ;
+  }
+  
+  .about-content p {
+    text-align: justify;
+    margin-bottom: 10px; /* Space between paragraphs */
+  }
+  
